@@ -150,7 +150,7 @@ export const caseStudies = [
       "Designed a clinical ops dashboard and a demand engine that attracted the right operators — not just more signups.",
     metric: "+72%",
     metricLabel: "Qualified leads",
-    note: "Sample / demo metric",
+    // note: "Sample / demo metric",
     visual: "dashboard" as const,
   },
   {
@@ -161,7 +161,7 @@ export const caseStudies = [
       "A driver-facing app and dispatch automation that made quoting, tracking, and booking feel like one product.",
     metric: "2.4×",
     metricLabel: "Conversion rate",
-    note: "Sample / demo metric",
+    // note: "Sample / demo metric",
     visual: "mobile" as const,
   },
   {
@@ -172,7 +172,7 @@ export const caseStudies = [
       "Positioned a payments platform, rebuilt the onboarding flow, and lowered the cost of every new merchant.",
     metric: "−38%",
     metricLabel: "Acquisition cost",
-    note: "Sample / demo metric",
+    // note: "Sample / demo metric",
     visual: "web" as const,
   },
 ];

@@ -3,6 +3,7 @@
 import { Arrow, Button } from "@/components/Button";
 import { HeroVisual } from "@/components/HeroVisual";
 import { useContact } from "@/components/ContactProvider";
+import { GlobeVisual } from "./GlobeVisual";
 
 export function Hero() {
   const { talk } = useContact();
@@ -32,7 +33,7 @@ export function Hero() {
           </div>
         </div>
         <div className="relative hero-in hero-in-d2">
-          <HeroVisual />
+          <GlobeVisual/>
         </div>
       </div>
     </section>

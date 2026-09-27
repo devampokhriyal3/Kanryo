@@ -14,7 +14,7 @@ export function Testimonials() {
       <div className="container-page">
         <p className="eyebrow">Voices</p>
         <h2 className="display mt-4 text-[36px] sm:text-[48px]">People we&apos;ve built with.</h2>
-        <p className="mt-3 text-sm text-muted">Sample testimonials — swap in real quotes anytime.</p>
+        {/* <p className="mt-3 text-sm text-muted">Sample testimonials — swap in real quotes anytime.</p> */}
 
         <div className="mt-10 overflow-hidden rounded-[32px] border border-[var(--line)] bg-bg p-8 sm:p-12">
           <AnimatePresence mode="wait">

@@ -43,7 +43,7 @@ export function CaseStudies() {
                     <p className="display text-[34px] text-blue-deep">{study.metric}</p>
                     <p className="text-xs font-medium text-muted">{study.metricLabel}</p>
                   </div>
-                  <p className="text-[10px] uppercase tracking-[0.14em] text-muted">{study.note}</p>
+                  {/* <p className="text-[10px] uppercase tracking-[0.14em] text-muted">{study.note}</p> */}
                 </div>
               </article>
             </Reveal>

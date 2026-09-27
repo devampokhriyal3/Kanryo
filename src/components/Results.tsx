@@ -80,7 +80,7 @@ export function Results() {
           className="rounded-[32px] border border-[var(--line)] bg-white px-8 py-10 sm:px-4"
         >
           <p className="mb-8 text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-muted">
-            Placeholder statistics — easy to replace
+            BUILT TO CREATE MEASURABLE IMPACT
           </p>
           <div className="grid divide-y sm:grid-cols-4 sm:divide-y-0">
             {stats.map((s) => (
