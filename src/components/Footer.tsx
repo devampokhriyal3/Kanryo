@@ -5,10 +5,10 @@ import { useContact } from "@/components/ContactProvider";
 import { brand, navLinks } from "@/lib/data";
 
 const social = [
-  { label: "LinkedIn", href: "https://www.linkedin.com" },
-  { label: "Instagram", href: "https://www.instagram.com" },
-  { label: "X", href: "https://x.com" },
-  { label: "Dribbble", href: "https://dribbble.com" },
+  { label: "LinkedIn", href: "https://www.instagram.com/kanryo_digital_solutions?stkn=MWNvYm5yMGppcjA3Yg%3D%3D&utm_source=qr" },
+  { label: "Instagram", href: "https://www.instagram.com/kanryo_digital_solutions?stkn=MWNvYm5yMGppcjA3Yg%3D%3D&utm_source=qr" },
+  { label: "X", href: "https://x.com/Kanryo_Digital" },
+  // { label: "Dribbble", href: "https://dribbble.com" },
 ];
 
 export function Footer() {
@@ -77,7 +77,7 @@ export function Footer() {
       </div>
       <div className="container-page mt-14 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-6 text-xs text-muted">
         <p>© 2026 {brand.name}. All rights reserved.</p>
-        <p>Demo website — sample metrics and testimonials.</p>
+       
       </div>
     </footer>
   );
